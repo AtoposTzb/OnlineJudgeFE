@@ -173,6 +173,14 @@ export default [
     meta: {title: 'FAQ'},
     component: FAQ
   },
+  // 在最后一个路由之前添加积分商城页面的路由
+  {
+    name: 'shop',
+    path: '/shop',
+    meta: { title: '积分商城' },
+    // 可采用异步加载
+    component: () => import('@/pages/oj/views/shop/shop.vue')
+  },
   {
     path: '*',
     meta: {title: '404'},

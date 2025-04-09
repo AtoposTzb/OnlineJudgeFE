@@ -18,6 +18,10 @@
         <Icon type="ios-pulse-strong"></Icon>
         {{$t('m.NavStatus')}}
       </Menu-item>
+      <Menu-item name="/shop">
+        <Icon type="ios-cart"></Icon>
+        积分商城
+      </Menu-item>
       <Submenu name="rank">
         <template slot="title">
           <Icon type="podium"></Icon>
